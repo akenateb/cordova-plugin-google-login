@@ -118,3 +118,63 @@ cordova run android
 ```
 
 > It has been tested using terminal directly not a device emulator.
+
+# Usage
+```sh
+//Get user Information
+cordova.plugins.GoogleSignInPlugin.getUser(
+ function (user) {
+  console.log(user);
+  },
+  function (error) {
+  console.error(error);
+  }
+);
+
+cordova.plugins.GoogleSignInPlugin.signIn(
+  function (authData) {
+    // {
+    //   "status": "success",
+    //   "message": {
+    //     "id": "",
+    //     "display_name": "",
+    //     "email": "",
+    //     "photo_url": "",
+    //     "id_token": ""
+    //   }
+    // }
+    console.log(authData);
+  },
+  function (error) {
+    console.error(error);
+  }
+);
+
+cordova.plugins.GoogleSignInPlugin.isSignedIn(
+  function (success) {
+    console.log(success);
+  },
+  function (error) {
+    console.error(error);
+  }
+);
+
+cordova.plugins.GoogleSignInPlugin.signOut(
+  function (success) {
+    console.log(success);
+  },
+  function (error) {
+    console.error(error);
+  }
+);
+
+// Android only
+cordova.plugins.GoogleSignInPlugin.oneTapLogin(
+  function (success) {
+    console.log(success);
+  },
+  function (error) {
+    console.error(error);
+  }
+);
+```
