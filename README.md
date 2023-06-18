@@ -1,6 +1,6 @@
-# cordova-plugin-google-login
+# cordova11-plugin-google-login
 
-Cordova plugin modified for integrating Google Signin in Android (iOS app not TESTED yet) based on [russmedia-digital/cordova-plugin-google-signin](https://github.com/russmedia-digital/cordova-plugin-google-signin/tree/main). This plugin have been fully tested only on Android at this moment.
+Cordova>=11 plugin modified for integrating Google Signin in Android (iOS app not TESTED yet) based on [russmedia-digital/cordova-plugin-google-signin](https://github.com/russmedia-digital/cordova-plugin-google-signin/tree/main). This plugin have been fully tested only on Android at this moment.
 
 # Installation
 
