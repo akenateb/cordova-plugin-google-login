@@ -1,0 +1,43 @@
+{
+  "name": "cordova11-plugin-google-signin",
+  "version": "1.0.0",
+  "author": "Mahendra Liya & Miguel Jimenez",
+  "contributors": [
+    {
+      "name": "Gabriel Petchesi",
+      "email": "pghoratiu@gmail.com"
+    }
+  ],
+  "description": "Use your Google account to authenticated in your cordova >=11 mobile app, and get user data Information",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:akenateb/cordova11-plugin-google-login.git"
+  },
+  "cordova": {
+    "id": "com.devapps",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "Google",
+    "Google SignIn",
+    "Google Sign In",
+    "GoogleSignIn",
+    "Google Login",
+    "Google Plus",
+    "Login",
+    "OAuth",
+    "Identity",
+    "Authentication",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "license": "Apache"
+}
