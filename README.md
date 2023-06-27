@@ -40,11 +40,18 @@ Keep these credentials for later use.
 •	Developer KEY: Open one terminal move to your project root folder and run: 
 
 ```sh
-keytool -list -v -alias androiddebugkey -keystore "C:\Users\youruser.android\debug.keystore" -storepass android -keypass android
+keytool -list -v -alias androiddebugkey -keystore "C:\Users\youruser\.android\debug.keystore" -storepass android -keypass android
 ```
 •	Copy the SHA-1 line, it should look something like this: 
 
 >E7:B3:5D:19:2F:30:DD:63:71:0C:92:OA:95:8E:93:D7:1C:BF:21:D5
+
+If you do not have it:
+Open terminal and run:
+
+```sh
+keytool -genkey -v -keystore debug.keystore -alias aliasappdebugkey -keyalg RSA -keysize 2048 -validity 10000
+```
 
 •	Production KEY: Open one terminal move to your project root folder and run: 
 
